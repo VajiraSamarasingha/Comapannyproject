@@ -19,7 +19,12 @@
                 <a href="#">Contact</a>
             </nav>
             <div class="mobile-menu">
-                <i class="fas fa-bars"></i>
+                <i class="fas fa-bars" id="menu-item"></i>
+            </div>
+            <div class="mobile-menu-dropdown">
+                <a href="#">About Us</a>
+                <a href="#">Features</a>
+                <a href="#">Contact</a>
             </div>
         </header>
         <section class="welcome-section">
@@ -29,19 +34,27 @@
             </div>
         </section>
         <section class="image-section"></section>
-        <!-- <section class="image-section">
-            <img src="https://placehold.co/600x400" alt="Illustration of two people at a desk with a computer displaying graphs and analytics">
-        </section> -->
+        
     </div>
     <div>
     <section class="content-section">
+        <div>
         <h2 class="section-title">About Us</h2>
+        <div class="underlinbarcontent">
+            <label for="" class="underlinebar"></label>
+        </div>
+        </div>
         <p class="section-text">
             Lorem ipsum dolor sit amet, consectetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
         </p>
     </section>
     <section class="content-section">
+        <div>
         <h2 class="section-title">Latest News</h2>
+        <div class="Letestcontent-underlinbarcontent">
+            <label for="" class="Latestcontent-underlinebar"></label>
+        </div>
+        <div>
         <div class="news-section">
             <div class="news-card">
                 <img src="./images/img1.png" alt="News Image Description">
@@ -82,17 +95,42 @@
     <section class="testimonial-section">
         <div class="testimonial-container">
             <h2 class="testimonial-title">Testimonials</h2>
-            <blockquote class="testimonial">
-                Lorem ipsum dolor sit amet, consectetur sadipscing elitr, sed diam nonumy<br/> eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam<br/> voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<br/>
-            </blockquote>
-            <p class="testimonial-author">
-                - Lorem ipsum dolor<br>
-                Labore et dolore
-            </p>
+            <div class="Terminols-underlinbarcontent">
+                <label for="" class="Terminols-underlinebar"></label>
+            </div>
+            <div class="container-parts">
+                <div class="midleComponents">
+                    <div><img src="./images/left.png" alt="left" height="50px" width="30px"></div>
+                    <div>
+                        <blockquote class="testimonial">
+                            Lorem ipsum dolor sit amet, consectetur sadipscing elitr, sed diam nonumy<br/> eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam<br/> voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<br/>
+                        </blockquote>
+                        <p class="testimonial-author">
+                            - Lorem ipsum dolor<br>
+                            Labore et dolore
+                        </p>
+                    </div>
+                    <div><img src="./images/right.png" alt="" height="50px" width="30px"></div>
+                </div>
+            </div>
+            <div class="sliders">
+                <input type="radio" name="r" id="r1" checked>
+                <input type="radio" name="r" id="r2">
+                <input type="radio" name="r" id="r3">
+            </div>
+            <div class="navigation">
+                <label for="r1" class="bar"></label>
+                <label for="r2" class="bar"></label>
+                <label for="r3" class="bar"></label>
+            </div>
         </div>
+        
     </section>
     <section class="contact-section-map">
         <h2 class="contact-sections" style="color: blue;text-align: center;">Contact Us</h2>
+        <div class="Contact-underlinbarcontent">
+            <label for="" class="Contact-underlinebar"></label>
+        </div>
         <div class="map-container">
             <iframe class="map-embed"
                     src="https://maps.google.com/maps?q=Charlotte&t=&z=13&ie=UTF8&iwloc=&output=embed"
@@ -106,19 +144,24 @@
 
 
     <footer class="footer">
-        <div>
-            <div class="logo">Company Logo</div>
-            <div class="footer-address">
-                Kasoa ST, 19234, East Nils<br>
-                Athens, Greece<br>
-                +481 2345 678 12<br>
-                +481 2345 678 13
+        <div class="footerItems">
+            <div class="Fotter-menu">
+                <div class="logo">Company Logo</div>
+                <div class="footer-address">
+                    Kasoa ST, 19234, East Nils<br>
+                    Athens, Greece<br>
+                    +481 2345 678 12<br>
+                    +481 2345 678 13
+                </div>
+            </div>
+            <div class="footer-rights">
+                © 2020 Reserved by Company Name Limited.
             </div>
         </div>
-        <div class="footer-rights">
-            © 2020 Reserved by Company Name Limited.
-        </div>
         <div>
+            <div class="stay-connected">
+                Stay Connected With
+            </div>
             <div class="social-icons">
                 <a href="#"><i class="fab fa-facebook-f"></i></a>
                 <a href="#"><i class="fab fa-twitter"></i></a>
@@ -131,6 +174,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
