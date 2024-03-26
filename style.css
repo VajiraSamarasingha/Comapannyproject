@@ -1,0 +1,71 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.firstside{
+    background-image: url(./images/HeroBanner.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.logo {
+    font-size: 36px;
+    font-weight: bold;
+}
+.lang-selector{
+    font-size: 10px;
+}
+.menu {
+    display: flex;
+}
+.menu a{
+    margin-right: 60px;
+}
+.mobile-menu {
+    display: none;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+    .mobile-menu {
+        display: block;
+        font-size: 24px;
+    }
+}
+.welcome-section {
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    padding: 50px;
+    margin-left: 10%;
+}
+.welcome-content{
+    text-align: left;
+}
+.welcome-section h1 {
+    font-size: 75px;
+    font-weight:normal;
+    margin-bottom: 20px;
+}
+.welcome-section p {
+    font-size: 20px;
+    max-width: 600px;
+    margin: auto;
+}
