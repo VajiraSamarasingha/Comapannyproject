@@ -69,3 +69,64 @@ nav a:hover {
     max-width: 600px;
     margin: auto;
 }
+
+.content-section {
+    background-color: #f0f0f0;
+    padding: 40px 20px;
+    color: #333;
+}
+.section-title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.section-text {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+.news-section {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+.news-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: calc(33.333% - 20px);
+    margin-bottom: 20px;
+}
+.news-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.news-card-content {
+    padding: 20px;
+}
+.news-card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.news-card-text {
+    font-size: 14px;
+    margin-bottom: 20px;
+    height: 60px; /* Fixed height for consistent card sizes */
+    overflow: hidden; /* Hides overflow text */
+}
+.read-more {
+    color: #0066cc;
+    text-decoration: none;
+    font-size: 14px;
+}
+.read-more i {
+    margin-left: 5px;
+}
